@@ -38,11 +38,11 @@ class DiagonalShape extends Shape {
   });
 
   @override
-  Path build({Rect rect, double scale}) {
-    return generatePath(rect: rect);
+  Path build({Rect? rect, double? scale}) {
+    return generatePath(rect: rect!);
   }
 
-  Path generatePath({Rect rect}) {
+  Path generatePath({required Rect rect}) {
     final Path path = Path();
 
     final width = rect.width;

@@ -22,11 +22,11 @@ class RoundRectShape extends Shape with BorderShape {
   }
 
   @override
-  Path build({Rect rect, double scale}) {
-    return generatePath(useBezier: false, rect: rect);
+  Path build({Rect? rect, double? scale}) {
+    return generatePath(useBezier: false, rect: rect!);
   }
 
-  Path generatePath({bool useBezier, Rect rect}) {
+  Path generatePath({required bool useBezier, required Rect rect}) {
     final Path path = Path();
 
     final double left = rect.left;

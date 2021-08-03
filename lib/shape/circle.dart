@@ -18,11 +18,11 @@ class CircleShape extends Shape with BorderShape {
   }
 
   @override
-  Path build({Rect rect, double scale}) {
-    return generatePath(rect: rect);
+  Path build({Rect? rect, double? scale}) {
+    return generatePath(rect: rect!);
   }
 
-  Path generatePath({bool useBezier, Rect rect}) {
+  Path generatePath({bool? useBezier, required Rect rect}) {
     return Path()
       ..addOval(Rect.fromCircle(
         center: Offset(rect.width / 2.0, rect.height / 2.0),

@@ -22,11 +22,11 @@ class BubbleShape extends Shape {
       this.arrowPositionPercent = 0.5});
 
   @override
-  Path build({Rect rect, double scale}) {
-    return generatePath(rect: rect);
+  Path build({Rect? rect, double? scale}) {
+    return generatePath(rect: rect!);
   }
 
-  Path generatePath({Rect rect}) {
+  Path generatePath({required Rect rect}) {
     final Path path = new Path();
 
     double topLeftDiameter = max(borderRadius, 0);

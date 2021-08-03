@@ -16,11 +16,11 @@ class ArcShape extends Shape {
   });
 
   @override
-  Path build({Rect rect, double scale}) {
-    return generatePath(rect, scale);
+  Path build({Rect? rect, double? scale}) {
+    return generatePath(rect!, scale);
   }
 
-  Path generatePath(Rect rect, double scale) {
+  Path generatePath(Rect rect, double? scale) {
     final size = rect.size;
     switch (this.position) {
       case ArcPosition.Top:

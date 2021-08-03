@@ -6,14 +6,14 @@ import 'package:shape_of_view/shape_of_view.dart';
 class StarShape extends Shape {
   final int noOfPoints;
 
-  StarShape({this.noOfPoints}) : assert(noOfPoints > 3);
+  StarShape({required this.noOfPoints}) : assert(noOfPoints > 3);
 
   @override
-  Path build({Rect rect, double scale}) {
-    return generatePath(rect: rect);
+  Path build({Rect? rect, double? scale}) {
+    return generatePath(rect: rect!);
   }
 
-  Path generatePath({bool useBezier, Rect rect}) {
+  Path generatePath({bool? useBezier, required Rect rect}) {
     final height = rect.height;
     final width = rect.width;
 
