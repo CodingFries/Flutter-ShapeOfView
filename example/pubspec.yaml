@@ -18,7 +18,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  shape_of_view:
+  shape_of_view_null_safe:
     path: ../
 
 # For information on the generic Dart part of this file, see the

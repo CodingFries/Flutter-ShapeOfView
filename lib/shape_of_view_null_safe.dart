@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
-export 'package:shape_of_view/shape/arc.dart';
-export 'package:shape_of_view/shape/bubble.dart';
-export 'package:shape_of_view/shape/circle.dart';
-export 'package:shape_of_view/shape/custom.dart';
-export 'package:shape_of_view/shape/cutcorner.dart';
-export 'package:shape_of_view/shape/diagonal.dart';
-export 'package:shape_of_view/shape/polygon.dart';
-export 'package:shape_of_view/shape/roundrect.dart';
-export 'package:shape_of_view/shape/star.dart';
-export 'package:shape_of_view/shape/triangle.dart';
+export 'package:shape_of_view_null_safe/shape/arc.dart';
+export 'package:shape_of_view_null_safe/shape/bubble.dart';
+export 'package:shape_of_view_null_safe/shape/circle.dart';
+export 'package:shape_of_view_null_safe/shape/custom.dart';
+export 'package:shape_of_view_null_safe/shape/cutcorner.dart';
+export 'package:shape_of_view_null_safe/shape/diagonal.dart';
+export 'package:shape_of_view_null_safe/shape/polygon.dart';
+export 'package:shape_of_view_null_safe/shape/roundrect.dart';
+export 'package:shape_of_view_null_safe/shape/star.dart';
+export 'package:shape_of_view_null_safe/shape/triangle.dart';
 
 abstract class Shape {
   Path build({Rect? rect, double? scale});

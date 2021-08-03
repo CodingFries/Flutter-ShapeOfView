@@ -4,7 +4,7 @@ Give a custom shape to any flutter widget, Material Design 2 ready
 
 # Note
 
-THIS PACKAGE IS A FORK OF
+This package is a fork of
 
 https://pub.dev/packages/shape_of_view
 

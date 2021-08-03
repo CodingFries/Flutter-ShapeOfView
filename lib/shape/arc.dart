@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shape_of_view/shape_of_view.dart';
+import 'package:shape_of_view_null_safe/shape_of_view_null_safe.dart';
 
 enum ArcPosition { Bottom, Top, Left, Right }
 enum ArcDirection { Outside, Inside }

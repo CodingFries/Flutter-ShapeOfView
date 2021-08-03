@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:shape_of_view/shape_of_view.dart';
+import 'package:shape_of_view_null_safe/shape_of_view_null_safe.dart';
 
 class StarShape extends Shape {
   final int noOfPoints;
