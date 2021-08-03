@@ -1,3 +1,3 @@
-## 1.0.1
+## 2.0.0
 
-* Added a key on the widget
+* Added Null Safety

@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40b7b742-0025-4478-b858-b218c219f85d" name="Default Changelist" comment="Added Null Safety">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="40b7b742-0025-4478-b858-b218c219f85d" name="Default Changelist" comment="Added Description">
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -158,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627983124692</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Description">
+      <created>1627985302917</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627985302917</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -249,7 +255,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Null Safety" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Null Safety" />
+    <MESSAGE value="Added Description" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Description" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../flutter-sdk/packages/flutter/lib/src/painting/rounded_rectangle_border.dart">
