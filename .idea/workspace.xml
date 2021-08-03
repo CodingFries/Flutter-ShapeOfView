@@ -4,25 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40b7b742-0025-4478-b858-b218c219f85d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="40b7b742-0025-4478-b858-b218c219f85d" name="Default Changelist" comment="Added Null Safety">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/generated/i18n.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/generated/i18n.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/shape/arc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/shape/arc.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/shape/bubble.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/shape/bubble.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/shape/circle.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/shape/circle.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/shape/custom.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/shape/custom.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/shape/cutcorner.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/shape/cutcorner.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/shape/diagonal.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/shape/diagonal.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/shape/polygon.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/shape/polygon.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/shape/roundrect.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/shape/roundrect.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/shape/star.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/shape/star.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/shape/triangle.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/shape/triangle.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/shape_of_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/shape_of_view.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +126,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -167,6 +151,14 @@
       <option name="presentableId" value="Default" />
       <updated>1564402059537</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added Null Safety">
+      <created>1627983124692</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1627983124692</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -254,6 +246,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Null Safety" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Null Safety" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../flutter-sdk/packages/flutter/lib/src/painting/rounded_rectangle_border.dart">
