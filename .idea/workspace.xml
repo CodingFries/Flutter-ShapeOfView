@@ -6,31 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="40b7b742-0025-4478-b858-b218c219f85d" name="Default Changelist" comment="Added Description">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/jacksman.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/jacksman.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/shape/arc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/shape/arc.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/shape/bubble.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/shape/bubble.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/shape/circle.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/shape/circle.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/shape/custom.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/shape/custom.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/shape/cutcorner.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/shape/cutcorner.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/shape/diagonal.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/shape/diagonal.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/shape/polygon.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/shape/polygon.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/shape/roundrect.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/shape/roundrect.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/shape/star.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/shape/star.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/shape/triangle.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/shape/triangle.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/shape_of_view.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/shape_of_view_null_safe.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Meow\.android\avd\Lolipop.avd]" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -195,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627985611811</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added Description">
+      <created>1627986610880</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1627986610880</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
