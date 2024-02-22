@@ -15,14 +15,14 @@ abstract class Shape {
   Path build({Rect? rect, double? scale});
 }
 
-abstract class BorderShape {
+abstract mixin class BorderShape {
   void drawBorder(Canvas canvas, Rect rect);
 }
 
 class ShapeOfViewBorder extends ShapeBorder {
   final Shape shape;
 
-  ShapeOfViewBorder({required this.shape}) : assert(shape != null);
+  ShapeOfViewBorder({required this.shape});
 
   @override
   EdgeInsetsGeometry get dimensions {
