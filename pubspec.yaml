@@ -6,6 +6,7 @@ homepage: https://github.com/awais-amjed/Flutter-ShapeOfView
 
 environment:
   sdk: '>=3.3.0 <4.0.0'
+  flutter: ">=1.17.0"
 
 dependencies:
   flutter:
