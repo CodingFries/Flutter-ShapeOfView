@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40b7b742-0025-4478-b858-b218c219f85d" name="Default Changelist" comment="Remove i18n">
+    <list default="true" id="40b7b742-0025-4478-b858-b218c219f85d" name="Default Changelist" comment="Update version code &amp; add flutter version constraint">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_shape_of_view.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_shape_of_view.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +142,7 @@
     "git-widget-placeholder": "dart-3",
     "ignore.virus.scanning.warn.message": "true",
     "io.flutter.reload.alreadyRun": "true",
-    "last_opened_file_path": "C:/development/flutter/Flutter-ShapeOfView",
+    "last_opened_file_path": "C:/development/flutter/package",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
@@ -250,7 +251,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708602753109</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Update version code">
+      <option name="closed" value="true" />
+      <created>1708602976427</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1708602976427</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Update version code &amp; add flutter version constraint">
+      <option name="closed" value="true" />
+      <created>1708603275062</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1708603275062</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -347,7 +364,9 @@
     <MESSAGE value="Fix package error" />
     <MESSAGE value="Upgrade example project" />
     <MESSAGE value="Remove i18n" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove i18n" />
+    <MESSAGE value="Update version code" />
+    <MESSAGE value="Update version code &amp; add flutter version constraint" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update version code &amp; add flutter version constraint" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../flutter-sdk/packages/flutter/lib/src/painting/rounded_rectangle_border.dart">
