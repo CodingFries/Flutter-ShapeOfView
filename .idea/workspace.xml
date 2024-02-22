@@ -4,10 +4,19 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40b7b742-0025-4478-b858-b218c219f85d" name="Default Changelist" comment="Fix mixin error">
+    <list default="true" id="40b7b742-0025-4478-b858-b218c219f85d" name="Default Changelist" comment="Fix package error">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/jacksman.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/jacksman.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/shape/arc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/shape/arc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/kotlin/com/github/florent37/flutter_shape_of_view_example/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/kotlin/com/github/florent37/flutter_shape_of_view_example/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/profile/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_shape_of_view.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_shape_of_view.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/generated/i18n.dart" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +150,8 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "dart-3",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/development/flutter/p2p_chat",
+    "io.flutter.reload.alreadyRun": "true",
+    "last_opened_file_path": "C:/development/flutter/Flutter-ShapeOfView",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
@@ -218,7 +228,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708583067113</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Fix warnings">
+      <option name="closed" value="true" />
+      <created>1708585556045</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708585556045</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fix package error">
+      <option name="closed" value="true" />
+      <created>1708585589354</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1708585589354</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -311,7 +337,9 @@
     <MESSAGE value="Added Description" />
     <MESSAGE value="Update dependencies" />
     <MESSAGE value="Fix mixin error" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix mixin error" />
+    <MESSAGE value="Fix warnings" />
+    <MESSAGE value="Fix package error" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix package error" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../flutter-sdk/packages/flutter/lib/src/painting/rounded_rectangle_border.dart">
