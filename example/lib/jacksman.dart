@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kenburns/kenburns.dart';
+import 'package:kenburns_nullsafety/kenburns_nullsafety.dart';
 import 'package:shape_of_view_null_safe/shape_of_view_null_safe.dart';
 
 class JacksmanPage extends StatelessWidget {

@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40b7b742-0025-4478-b858-b218c219f85d" name="Default Changelist" comment="Added Description">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="40b7b742-0025-4478-b858-b218c219f85d" name="Default Changelist" comment="Fix mixin error">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_shape_of_view.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_shape_of_view.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/shape_of_view_null_safe.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/shape_of_view_null_safe.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/jacksman.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/jacksman.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/shape/arc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/shape/arc.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +202,23 @@
       <option name="project" value="LOCAL" />
       <updated>1627986610880</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update dependencies">
+      <option name="closed" value="true" />
+      <created>1708583056807</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708583056807</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fix mixin error">
+      <option name="closed" value="true" />
+      <created>1708583067113</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708583067113</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -300,7 +309,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Null Safety" />
     <MESSAGE value="Added Description" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Description" />
+    <MESSAGE value="Update dependencies" />
+    <MESSAGE value="Fix mixin error" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix mixin error" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../flutter-sdk/packages/flutter/lib/src/painting/rounded_rectangle_border.dart">
