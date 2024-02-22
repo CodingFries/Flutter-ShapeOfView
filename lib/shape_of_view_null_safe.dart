@@ -66,10 +66,9 @@ class ShapeOfViewBorder extends ShapeBorder {
   }
 
   @override
-  bool operator ==(dynamic other) {
-    if (runtimeType != other.runtimeType) return false;
-    final ShapeOfViewBorder typedOther = other;
-    return shape == typedOther.shape;
+  bool operator ==(Object other) {
+    if (other is! ShapeOfViewBorder) return false;
+    return shape == other.shape;
   }
 
   @override

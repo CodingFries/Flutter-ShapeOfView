@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:shape_of_view_null_safe/shape_of_view_null_safe.dart';
 
 enum ArcPosition { Bottom, Top, Left, Right }
+
 enum ArcDirection { Outside, Inside }
 
 class ArcShape extends Shape {
@@ -40,7 +41,6 @@ class ArcShape extends Shape {
             ..lineTo(0.0, size.height)
             ..close();
         }
-        break;
       case ArcPosition.Bottom:
         if (direction == ArcDirection.Outside) {
           return Path()
@@ -62,7 +62,6 @@ class ArcShape extends Shape {
             ..lineTo(0.0, 0.0)
             ..close();
         }
-        break;
       case ArcPosition.Left:
         if (direction == ArcDirection.Outside) {
           return Path()
@@ -81,7 +80,6 @@ class ArcShape extends Shape {
             ..lineTo(size.width, 0.0)
             ..close();
         }
-        break;
       default: //right
         if (direction == ArcDirection.Outside) {
           return Path()
@@ -104,7 +102,6 @@ class ArcShape extends Shape {
             ..lineTo(0.0, 0.0)
             ..close();
         }
-        break;
     }
   }
 }
