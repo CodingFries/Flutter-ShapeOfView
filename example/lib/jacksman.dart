@@ -61,20 +61,88 @@ class JacksmanPage extends StatelessWidget {
             ],
           ),
         ),
-        Container(
-          margin: EdgeInsets.only(left: 20, top: 230),
-          child: ShapeOfView(
-            height: 100,
-            width: 100,
-            shape: CircleShape(borderColor: Colors.white, borderWidth: 3),
-            elevation: 12,
-            child: Image.asset(
-              "assets/diagonallayout_hughjackman.jpg",
-              fit: BoxFit.cover,
-            ),
+        Padding(
+          padding: const EdgeInsets.only(left: 20, top: 230),
+          child: Wrap(
+            spacing: 20,
+            runSpacing: 20,
+            children: [
+              HelperWidget(
+                shape: CircleShape(borderColor: Colors.white, borderWidth: 3),
+              ),
+              HelperWidget(
+                shape: RoundRectShape(
+                  borderRadius: BorderRadius.circular(12),
+                  borderColor: Colors.white, //optional
+                  borderWidth: 2, //optional
+                ),
+              ),
+              HelperWidget(
+                shape: CutCornerShape(
+                  borderRadius: BorderRadius.circular(12),
+                ),
+              ),
+              HelperWidget(
+                shape: ArcShape(
+                  direction: ArcDirection.Outside,
+                  height: 20,
+                  position: ArcPosition.Bottom,
+                ),
+              ),
+              HelperWidget(
+                shape: DiagonalShape(
+                  position: DiagonalPosition.Bottom,
+                  direction: DiagonalDirection.Right,
+                  angle: DiagonalAngle.deg(angle: 10),
+                ),
+              ),
+              HelperWidget(
+                shape: TriangleShape(
+                  percentBottom: 0.5,
+                  percentLeft: 0,
+                  percentRight: 0,
+                ),
+              ),
+              HelperWidget(
+                shape: BubbleShape(
+                  position: BubblePosition.Bottom,
+                  arrowPositionPercent: 0.5,
+                  borderRadius: 20,
+                  arrowHeight: 10,
+                  arrowWidth: 10,
+                ),
+              ),
+              HelperWidget(
+                shape: StarShape(noOfPoints: 5),
+              ),
+              HelperWidget(
+                shape: PolygonShape(numberOfSides: 9),
+              ),
+            ],
           ),
         ),
       ],
+    );
+  }
+}
+
+class HelperWidget extends StatelessWidget {
+  const HelperWidget({super.key, this.shape});
+
+  /// The shape of the widget
+  final Shape? shape;
+
+  @override
+  Widget build(BuildContext context) {
+    return ShapeOfView(
+      height: 100,
+      width: 100,
+      elevation: 2,
+      shape: shape,
+      child: Image.asset(
+        "assets/diagonallayout_hughjackman.jpg",
+        fit: BoxFit.cover,
+      ),
     );
   }
 }
