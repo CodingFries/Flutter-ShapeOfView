@@ -2,23 +2,16 @@ import 'package:flutter/material.dart';
 
 import 'jacksman.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(const MyApp());
 
-class MyApp extends StatefulWidget {
-  @override
-  _MyAppState createState() => _MyAppState();
-}
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
-class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        backgroundColor: Colors.grey[200],
-        body: JacksmanPage(),
-      ),
+      home: Scaffold(backgroundColor: Colors.grey[200], body: JacksmanPage()),
     );
   }
 }
-
