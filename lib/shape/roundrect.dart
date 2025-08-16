@@ -12,6 +12,11 @@ class RoundRectShape extends Shape with BorderShape {
 
   final Paint borderPaint = Paint();
 
+  /// Creates a new [RoundRectShape] with the specified styling options.
+  ///
+  /// [borderRadius] - Defines the corner radii for each corner. Defaults to 12-pixel circular radius for all corners.
+  /// [borderWidth] - The width of the border stroke. Defaults to 0.0 (no border).
+  /// [borderColor] - The color of the border. Defaults to white. Only visible when [borderWidth] > 0.
   RoundRectShape({
     this.borderRadius = const BorderRadius.all(Radius.circular(12)),
     this.borderWidth = 0.0,
@@ -63,11 +68,16 @@ class RoundRectShape extends Shape with BorderShape {
     } else {
       final double arc = topRightRadius > 0 ? 90 : -270;
       path.arcTo(
-          Rect.fromLTRB(right - topRightRadius * 2.0, top, right,
-              top + topRightRadius * 2.0),
-          radians(-90),
-          radians(arc),
-          false);
+        Rect.fromLTRB(
+          right - topRightRadius * 2.0,
+          top,
+          right,
+          top + topRightRadius * 2.0,
+        ),
+        radians(-90),
+        radians(arc),
+        false,
+      );
     }
     path.lineTo(right, bottom - bottomRightRadius);
     if (useBezier) {
@@ -75,11 +85,16 @@ class RoundRectShape extends Shape with BorderShape {
     } else {
       final double arc = bottomRightRadius > 0 ? 90 : -270;
       path.arcTo(
-          Rect.fromLTRB(right - bottomRightRadius * 2.0,
-              bottom - bottomRightRadius * 2.0, right, bottom),
-          0,
-          radians(arc),
-          false);
+        Rect.fromLTRB(
+          right - bottomRightRadius * 2.0,
+          bottom - bottomRightRadius * 2.0,
+          right,
+          bottom,
+        ),
+        0,
+        radians(arc),
+        false,
+      );
     }
     path.lineTo(left + bottomLeftRadius, bottom);
     if (useBezier) {
@@ -87,11 +102,16 @@ class RoundRectShape extends Shape with BorderShape {
     } else {
       final double arc = bottomLeftRadius > 0 ? 90 : -270;
       path.arcTo(
-          Rect.fromLTRB(left, bottom - bottomLeftRadius * 2.0,
-              left + bottomLeftRadius * 2.0, bottom),
-          radians(90),
-          radians(arc),
-          false);
+        Rect.fromLTRB(
+          left,
+          bottom - bottomLeftRadius * 2.0,
+          left + bottomLeftRadius * 2.0,
+          bottom,
+        ),
+        radians(90),
+        radians(arc),
+        false,
+      );
     }
     path.lineTo(left, top + topLeftRadius);
     if (useBezier) {
@@ -99,17 +119,30 @@ class RoundRectShape extends Shape with BorderShape {
     } else {
       final double arc = topLeftRadius > 0 ? 90 : -270;
       path.arcTo(
-          Rect.fromLTRB(
-              left, top, left + topLeftRadius * 2.0, top + topLeftRadius * 2.0),
-          radians(180),
-          radians(arc),
-          false);
+        Rect.fromLTRB(
+          left,
+          top,
+          left + topLeftRadius * 2.0,
+          top + topLeftRadius * 2.0,
+        ),
+        radians(180),
+        radians(arc),
+        false,
+      );
     }
     path.close();
 
     return path;
   }
 
+  /// Draws a custom border for the rounded rectangle shape.
+  /// 
+  /// This method is called when the shape needs to draw its border.
+  /// The border is only drawn if [borderWidth] is greater than 0.
+  /// The border follows the same rounded rectangle path as the shape itself.
+  /// 
+  /// [canvas] - The canvas on which to draw the border.
+  /// [rect] - The bounding rectangle that defines the drawing area.
   @override
   void drawBorder(Canvas canvas, Rect rect) {
     if (this.borderWidth > 0) {

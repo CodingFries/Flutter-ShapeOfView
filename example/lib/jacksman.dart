@@ -2,6 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:kenburns_nullsafety/kenburns_nullsafety.dart';
 import 'package:shape_of_view_null_safe/shape_of_view_null_safe.dart';
 
+/// Example page demonstrating various ShapeOfView implementations.
+///
+/// This page showcases different shape types available in the ShapeOfView package,
+/// including diagonal shapes, circles, rounded rectangles, cut corners, arcs,
+/// triangles, bubbles, stars, and polygons.
 class JacksmanPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -61,6 +66,7 @@ class JacksmanPage extends StatelessWidget {
             ],
           ),
         ),
+        // Grid showcasing various shape types with different configurations
         Padding(
           padding: const EdgeInsets.only(left: 20, top: 230),
           child: Wrap(

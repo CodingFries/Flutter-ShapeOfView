@@ -6,9 +6,7 @@ typedef ShapeBuilder = Path Function(Rect? rect);
 class CustomShape extends Shape {
   final ShapeBuilder? builder;
 
-  CustomShape({
-    this.builder,
-  });
+  CustomShape({this.builder});
 
   @override
   Path build({Rect? rect, double? scale}) {
