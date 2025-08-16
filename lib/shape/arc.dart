@@ -17,10 +17,10 @@ class ArcShape extends Shape {
   });
 
   /// Builds the geometric path for this arc shape.
-  /// 
+  ///
   /// [rect] - The bounding rectangle that defines the area within which the shape should be drawn.
   /// [scale] - Optional scaling factor (currently not used in this implementation).
-  /// 
+  ///
   /// Returns a [Path] object representing the arc shape's outline.
   @override
   Path build({Rect? rect, double? scale}) {
@@ -28,14 +28,14 @@ class ArcShape extends Shape {
   }
 
   /// Generates the actual path for the arc shape based on position and direction.
-  /// 
+  ///
   /// Creates a rectangular path with one curved edge using quadratic Bezier curves.
   /// The implementation handles four different arc positions (top, bottom, left, right)
   /// and two directions (inside, outside) for a total of eight possible arc configurations.
-  /// 
+  ///
   /// [rect] - The bounding rectangle that defines the drawing area.
   /// [scale] - Optional scaling factor (currently unused).
-  /// 
+  ///
   /// Returns a [Path] object with the arc shape's geometric outline.
   Path generatePath(Rect rect, double? scale) {
     final size = rect.size;
