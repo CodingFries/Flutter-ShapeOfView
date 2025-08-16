@@ -1,3 +1,10 @@
+## 3.1.0
+
+* Updated example project to latest Flutter SDK
+* Added detailed comments and examples for all shape classes
+* Upgraded dependencies and updated Dart and Flutter SDK constraints
+* Project maintenance: removed unnecessary files and fixed warnings
+
 ## 3.0.0
 
 * Updated Project to latest dependencies
