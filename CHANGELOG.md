@@ -1,3 +1,9 @@
+## 3.1.1
+
+* Improved documentation formatting in `roundrect.dart` and `arc.dart` files
+* Enhanced formatting and added `flutter_lints` to example project
+* Minor dependency upgrades
+
 ## 3.1.0
 
 * Updated example project to latest Flutter SDK
