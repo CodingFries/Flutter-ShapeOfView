@@ -8,16 +8,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  kenburns_nullsafety: ^1.0.1
 
+  kenburns_nullsafety: ^1.0.1
   cupertino_icons: ^1.0.6
+  shape_of_view_null_safe:
+    path: ../
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-  shape_of_view_null_safe:
-    path: ../
+  flutter_lints: ^5.0.0
 
 flutter:
 

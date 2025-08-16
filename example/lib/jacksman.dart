@@ -8,6 +8,8 @@ import 'package:shape_of_view_null_safe/shape_of_view_null_safe.dart';
 /// including diagonal shapes, circles, rounded rectangles, cut corners, arcs,
 /// triangles, bubbles, stars, and polygons.
 class JacksmanPage extends StatelessWidget {
+  const JacksmanPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Stack(
@@ -15,9 +17,7 @@ class JacksmanPage extends StatelessWidget {
         ShapeOfView(
           elevation: 4,
           height: 300,
-          shape: DiagonalShape(
-            angle: DiagonalAngle.deg(angle: 15),
-          ),
+          shape: DiagonalShape(angle: DiagonalAngle.deg(angle: 15)),
           child: Stack(
             children: [
               KenBurns(
@@ -34,15 +34,17 @@ class JacksmanPage extends StatelessWidget {
                     child: Text(
                       "Hugh Jackman",
                       style: TextStyle(
-                          fontWeight: FontWeight.w200,
-                          color: Colors.white,
-                          fontSize: 20,
-                          shadows: [
-                            Shadow(
-                                color: Colors.black,
-                                blurRadius: 1,
-                                offset: Offset(1, 1)),
-                          ]),
+                        fontWeight: FontWeight.w200,
+                        color: Colors.white,
+                        fontSize: 20,
+                        shadows: [
+                          Shadow(
+                            color: Colors.black,
+                            blurRadius: 1,
+                            offset: Offset(1, 1),
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                   Padding(
@@ -50,19 +52,21 @@ class JacksmanPage extends StatelessWidget {
                     child: Text(
                       "Actor Producer",
                       style: TextStyle(
-                          fontWeight: FontWeight.w700,
-                          color: Colors.white,
-                          fontSize: 20,
-                          shadows: [
-                            Shadow(
-                                color: Colors.black,
-                                blurRadius: 1,
-                                offset: Offset(1, 1)),
-                          ]),
+                        fontWeight: FontWeight.w700,
+                        color: Colors.white,
+                        fontSize: 20,
+                        shadows: [
+                          Shadow(
+                            color: Colors.black,
+                            blurRadius: 1,
+                            offset: Offset(1, 1),
+                          ),
+                        ],
+                      ),
                     ),
-                  )
+                  ),
                 ],
-              )
+              ),
             ],
           ),
         ),
@@ -84,9 +88,7 @@ class JacksmanPage extends StatelessWidget {
                 ),
               ),
               HelperWidget(
-                shape: CutCornerShape(
-                  borderRadius: BorderRadius.circular(12),
-                ),
+                shape: CutCornerShape(borderRadius: BorderRadius.circular(12)),
               ),
               HelperWidget(
                 shape: ArcShape(
@@ -118,12 +120,8 @@ class JacksmanPage extends StatelessWidget {
                   arrowWidth: 10,
                 ),
               ),
-              HelperWidget(
-                shape: StarShape(noOfPoints: 5),
-              ),
-              HelperWidget(
-                shape: PolygonShape(numberOfSides: 9),
-              ),
+              HelperWidget(shape: StarShape(noOfPoints: 5)),
+              HelperWidget(shape: PolygonShape(numberOfSides: 9)),
             ],
           ),
         ),
