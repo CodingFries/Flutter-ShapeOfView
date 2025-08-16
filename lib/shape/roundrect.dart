@@ -136,11 +136,11 @@ class RoundRectShape extends Shape with BorderShape {
   }
 
   /// Draws a custom border for the rounded rectangle shape.
-  /// 
+  ///
   /// This method is called when the shape needs to draw its border.
   /// The border is only drawn if [borderWidth] is greater than 0.
   /// The border follows the same rounded rectangle path as the shape itself.
-  /// 
+  ///
   /// [canvas] - The canvas on which to draw the border.
   /// [rect] - The bounding rectangle that defines the drawing area.
   @override
