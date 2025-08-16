@@ -5,7 +5,7 @@ version: 3.0.0
 homepage: https://github.com/awais-amjed/Flutter-ShapeOfView
 
 environment:
-  sdk: '>=3.3.0 <4.0.0'
+  sdk: ^3.8.1
   flutter: ">=1.17.0"
 
 dependencies:
@@ -17,10 +17,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_lints: ^5.0.0
 
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
-
-# The following section is specific to Flutter.
   kenburns_nullsafety: ^1.0.1
 flutter:
